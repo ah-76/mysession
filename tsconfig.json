@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"], 
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+
+    /* Bundler mode */
+    "moduleResolution": "node", 
+    "isolatedModules": true,
+    "moduleDetection": "auto",
+    "verbatimModuleSyntax": true,
+
+    /* React & JSX Support */
+    "jsx": "react-jsx",
+    "types": ["react", "react-dom"],
+
+    /* Linting */
+    "strict": true, 
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true
+  },
+  "include": ["src"]
+}
